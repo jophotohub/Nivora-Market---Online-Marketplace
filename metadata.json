@@ -1,0 +1,6 @@
+{
+  "name": "Nivora Market - Online Marketplace",
+  "description": "Nivora Market is a premier B2C/B2B e-commerce marketplace for electronics, tools, electrical, plumbing, home appliances, and consumer essentials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

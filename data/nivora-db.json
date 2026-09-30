@@ -1,0 +1,1865 @@
+{
+  "users": [
+    {
+      "_id": "usr-admin-01",
+      "name": "Nivora Admin",
+      "email": "admin@nivoramarket.com",
+      "password": "$2b$10$aq1aZ1S/4Is8zKmgjlANkOEVHobge8FBTeflgPX7jb4GEuE71qdhu",
+      "role": "admin",
+      "phone": "+91 98765 00001",
+      "addresses": [
+        {
+          "id": "addr-01",
+          "fullName": "Nivora HQ Administration",
+          "phone": "+91 98765 00001",
+          "street": "Block 4, Industrial Tech Park, Sector 62",
+          "city": "Noida",
+          "state": "Uttar Pradesh",
+          "pincode": "201301",
+          "isDefault": true,
+          "type": "work"
+        }
+      ],
+      "createdAt": "2026-09-28T16:31:59.357Z"
+    },
+    {
+      "_id": "usr-cust-01",
+      "name": "Rajesh Kumar",
+      "email": "customer@nivoramarket.com",
+      "password": "$2b$10$aq1aZ1S/4Is8zKmgjlANkOzXj7y5Hi2yDJS7RZsO2ERhfivqh82mi",
+      "role": "user",
+      "phone": "+91 98765 43210",
+      "addresses": [
+        {
+          "id": "addr-02",
+          "fullName": "Rajesh Kumar",
+          "phone": "+91 98765 43210",
+          "street": "Flat 302, Green Valley Apartments, MG Road",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "pincode": "560001",
+          "isDefault": true,
+          "type": "home"
+        },
+        {
+          "id": "addr-03",
+          "fullName": "Rajesh Kumar (Work)",
+          "phone": "+91 98765 43210",
+          "street": "Nivora Electrical Workshop, Peenya Industrial Area",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "pincode": "560058",
+          "isDefault": false,
+          "type": "work"
+        }
+      ],
+      "createdAt": "2026-09-28T16:31:59.357Z"
+    },
+    {
+      "_id": "usr-1790689897317",
+      "name": "Jothi Ranjan",
+      "email": "jophtgrph@gmail.com",
+      "password": "$2b$10$1W8D7Xf8sin6rAPPcsumaeVoqDQcfGoHRdToQwUFAaUm4IZHPBe0S",
+      "role": "user",
+      "phone": "8122737528",
+      "addresses": [],
+      "createdAt": "2026-09-29T13:51:37.317Z"
+    },
+    {
+      "_id": "usr-1790690881439",
+      "name": "New Test Customer",
+      "email": "newtestuser_1790690881208@example.com",
+      "password": "$2b$10$PVpuA2/c6KKFaF1zlfXzf.myYaNPosOO6wURSgIDXx8reeMLCPbBK",
+      "role": "user",
+      "phone": "+91 9876543210",
+      "addresses": [],
+      "createdAt": "2026-09-29T14:08:01.439Z"
+    },
+    {
+      "_id": "usr-1790690882021",
+      "name": "Hacker Admin",
+      "email": "exploit_1790690881918@example.com",
+      "password": "$2b$10$o8t1M65rqHpVb6Vi61OaI.HxysZSS.l1ZSUrNwu58DdfZp3Hyz5H2",
+      "role": "user",
+      "phone": "",
+      "addresses": [],
+      "createdAt": "2026-09-29T14:08:02.021Z"
+    },
+    {
+      "_id": "usr-demo-cust-01",
+      "name": "Demo Customer",
+      "email": "demo.customer@nivoramarket.com",
+      "password": "$2b$10$GVfUwmHPeTl7nt2lfoOCmOyHbj3BIbMvFct4lkqrGuRzaNSYUV5rm",
+      "role": "customer",
+      "phone": "+91 98765 11111",
+      "addresses": [
+        {
+          "id": "addr-demo-01",
+          "fullName": "Demo Customer",
+          "phone": "+91 98765 11111",
+          "street": "24 Nivora Commercial Complex, Brigade Road",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "pincode": "560025",
+          "isDefault": true,
+          "type": "home"
+        }
+      ],
+      "createdAt": "2026-09-30T13:32:47.892Z"
+    },
+    {
+      "_id": "usr-demo-admin-01",
+      "name": "Demo Administrator",
+      "email": "demo.admin@nivoramarket.com",
+      "password": "$2b$10$GVfUwmHPeTl7nt2lfoOCmOyHbj3BIbMvFct4lkqrGuRzaNSYUV5rm",
+      "role": "admin",
+      "phone": "+91 98765 00000",
+      "addresses": [
+        {
+          "id": "addr-demo-admin-01",
+          "fullName": "Nivora Admin HQ",
+          "phone": "+91 98765 00000",
+          "street": "Level 8, Nivora Tech Tower, Cyber City",
+          "city": "Gurugram",
+          "state": "Haryana",
+          "pincode": "122002",
+          "isDefault": true,
+          "type": "work"
+        }
+      ],
+      "createdAt": "2026-09-30T13:32:47.985Z"
+    },
+    {
+      "_id": "usr-admin-1790775182873",
+      "name": "Test Administrator",
+      "email": "testadmin_1790775182754@nivoramarket.com",
+      "password": "$2b$10$EfrRDoj9ZiE7DEqREtup9esBT5r/hdvzBy2BH4a4fiNPhHlmg3V5u",
+      "role": "admin",
+      "phone": "",
+      "addresses": [],
+      "createdAt": "2026-09-30T13:33:02.873Z"
+    },
+    {
+      "_id": "usr-1790775183258",
+      "name": "Regular Customer",
+      "email": "testcust_1790775183144@example.com",
+      "password": "$2b$10$mQZ3G0PBAeiLJMjFGTx/5eXZL7DMUca2aURRH3q4cH1ZP5f.UhCHu",
+      "role": "customer",
+      "phone": "+91 98765 22222",
+      "addresses": [],
+      "createdAt": "2026-09-30T13:33:03.258Z"
+    },
+    {
+      "_id": "usr-1790780195402",
+      "name": "Vercel Tester",
+      "email": "vercel_test_1790780195306@nivoramarket.com",
+      "password": "$2b$10$YJMhvUAoA8ORWRP/XlrroeZWHX8/ZDwyhgLQ/1YeupX8hFRQpcgtG",
+      "role": "customer",
+      "phone": "",
+      "addresses": [],
+      "createdAt": "2026-09-30T14:56:35.402Z"
+    },
+    {
+      "_id": "usr-1790784394183",
+      "name": "Render User",
+      "email": "render_test_1790784394085@nivoramarket.com",
+      "password": "$2b$10$UfW9XGStQ5hPeV7YzwAbl.V9PlrTPSAfDDD9pxeC9ymLoAES7ViZW",
+      "role": "customer",
+      "phone": "",
+      "addresses": [],
+      "createdAt": "2026-09-30T16:06:34.183Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod-cmp-01",
+      "name": "Nivora UltraBook Pro 14\" Slim Laptop (Core i7, 16GB RAM, 512GB NVMe SSD)",
+      "slug": "nivora-ultrabook-pro-14-slim-laptop",
+      "sku": "NV-CMP-3001",
+      "category": "Computers",
+      "categorySlug": "computers",
+      "brand": "NivoraTech",
+      "price": 54999,
+      "originalPrice": 72999,
+      "discount": 25,
+      "stock": 18,
+      "images": [
+        "/images/products/laptop-pc.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 94,
+      "shortSpec": "Intel Core i7 13th Gen | 16GB LPDDR5 | 512GB NVMe | 14\" 2.8K OLED Display",
+      "description": "Designed for engineers, developers, and mobile professionals, the Nivora UltraBook Pro delivers exceptional computing power in a feather-light CNC aluminum unibody chassis. Equipped with a vivid 2.8K 90Hz OLED display, backlit keyboard, fingerprint login, and up to 14 hours of fast-charging battery life.",
+      "specifications": {
+        "Processor": "Intel Core i7-1360P (12 Cores, up to 5.0 GHz)",
+        "RAM": "16GB LPDDR5 5200MHz",
+        "Storage": "512GB PCIe 4.0 NVMe SSD",
+        "Display": "14.0\" 2.8K (2880 x 1800) OLED 90Hz 100% DCI-P3",
+        "Battery Life": "Up to 14 Hours (Fast Charge 65W USB-C)",
+        "Operating System": "Windows 11 Pro Licensed"
+      },
+      "variants": [
+        {
+          "name": "Storage",
+          "options": [
+            "512GB NVMe SSD",
+            "1TB NVMe SSD"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-15T23:59:59Z",
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-cmp-02",
+      "name": "Nivora Vision 27-Inch 4K UHD Bezel-Less IPS Professional Monitor (100% sRGB)",
+      "slug": "nivora-vision-27-inch-4k-uhd-bezel-less-ips-monitor",
+      "sku": "NV-CMP-4022",
+      "category": "Computers",
+      "categorySlug": "computers",
+      "brand": "NivoraVision",
+      "price": 21999,
+      "originalPrice": 32999,
+      "discount": 33,
+      "stock": 25,
+      "images": [
+        "/images/products/smart-monitor.jpg"
+      ],
+      "rating": 4.7,
+      "reviewCount": 68,
+      "shortSpec": "27\" 4K UHD 3840x2160 | 100% sRGB IPS | USB-C 65W PD | Height Adjustable Stand",
+      "description": "The Nivora Vision 27\" 4K UHD IPS Monitor offers ultra-crisp resolution, true-to-life 10-bit color accuracy, and factory calibration for CAD drafting, software architecture, and creative workflows. Features single-cable USB-C power delivery, dual HDMI 2.1, and an ergonomic pivot/swivel stand.",
+      "specifications": {
+        "Resolution": "3840 x 2160 (4K UHD) @ 60Hz",
+        "Panel Type": "IPS Anti-Glare 350 nits",
+        "Color Gamut": "100% sRGB, 95% DCI-P3, HDR10",
+        "Connectivity": "1x USB-C (65W PD), 2x HDMI 2.1, 1x DP 1.4",
+        "Stand Adjustments": "Height (130mm), Tilt, Swivel, 90° Pivot",
+        "Eye Care": "TUV Rheinland Certified Low Blue Light & Flicker-Free"
+      },
+      "variants": [],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-001",
+      "name": "Pro-Duty 20V Cordless Brushless Drill Driver Kit",
+      "slug": "pro-duty-20v-cordless-brushless-drill-driver-kit",
+      "sku": "NV-TLS-8821",
+      "category": "Tools",
+      "categorySlug": "tools",
+      "brand": "NivoraPro",
+      "price": 3899,
+      "originalPrice": 6499,
+      "discount": 40,
+      "stock": 24,
+      "images": [
+        "/images/products/cordless-drill.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 342,
+      "shortSpec": "20V Brushless Motor | 2x 2.0Ah Batteries | 13mm Keyless Chuck",
+      "description": "Engineered for contractors and serious DIYers, the NivoraPro 20V Cordless Brushless Drill delivers up to 65Nm of torque with dual speed ranges (0-500 & 0-1800 RPM). Includes 2 rechargeable lithium batteries, fast charger, and 30-piece accessory drill bit set inside a heavy-duty blow mold case.",
+      "specifications": {
+        "Voltage": "20V Max",
+        "Motor Type": "Brushless High-Torque",
+        "Chuck Size": "13mm All-Metal Keyless",
+        "Max Torque": "65 Nm",
+        "Battery Capacity": "2x 2000 mAh Li-Ion",
+        "Warranty": "2 Years Nivora Direct"
+      },
+      "variants": [
+        {
+          "name": "Kit Type",
+          "options": [
+            "Standard (2 Batteries)",
+            "Heavy Duty (With 100pc Kit)"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-05T23:59:59Z",
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-005",
+      "name": "Heavy-Duty Nitrile Coated Safety Work Gloves (Pack of 6 Pairs)",
+      "slug": "heavy-duty-nitrile-coated-safety-work-gloves-pack-of-6-pairs",
+      "sku": "NV-TLS-3420",
+      "category": "Tools",
+      "categorySlug": "tools",
+      "brand": "GripMaster",
+      "price": 499,
+      "originalPrice": 899,
+      "discount": 44,
+      "stock": 85,
+      "images": [
+        "/images/products/nitrile-work-gloves.jpg"
+      ],
+      "rating": 4.7,
+      "reviewCount": 412,
+      "shortSpec": "Micro-Foam Nitrile Palm Coating | EN388 Cut Level 3 | Breathable Seamless Knit",
+      "description": "Designed for construction, electrical installations, metal handling, and automotive mechanical tasks. Provides exceptional oil grip and abrasion resistance without sacrificing fingertip dexterity. Washable and reusable.",
+      "specifications": {
+        "Quantity": "6 Pairs (12 individual gloves)",
+        "Coating Material": "Abrasion-Resistant Sandy Nitrile",
+        "Liner Material": "15-Gauge Seamless Nylon/Spandex",
+        "Safety Rating": "EN388 4131A Mechanical Hazard Protection",
+        "Sizes Available": "Medium, Large, Extra-Large"
+      },
+      "variants": [
+        {
+          "name": "Size",
+          "options": [
+            "Medium (Size 8)",
+            "Large (Size 9)",
+            "XL (Size 10)"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-010",
+      "name": "Self-Adjusting Automatic Wire Stripper and Crimper Tool (8 Inch)",
+      "slug": "self-adjusting-automatic-wire-stripper-and-crimper-tool-8-inch",
+      "sku": "NV-TLS-4401",
+      "category": "Tools",
+      "categorySlug": "tools",
+      "brand": "WirePro",
+      "price": 749,
+      "originalPrice": 1299,
+      "discount": 42,
+      "stock": 38,
+      "images": [
+        "/images/products/wire-stripper-tool.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 310,
+      "shortSpec": "Strips 10-24 AWG | Built-In Wire Cutter | Crimps Insulated & Non-Insulated Terminals",
+      "description": "Professional alloy steel multi-function electrician pliers with self-adjusting jaws that strip wire without damaging copper cores. Built-in crimper handles 10-22 AWG insulated terminals and auto-ignition terminals.",
+      "specifications": {
+        "Stripping Range": "10 to 24 AWG (0.2 to 6.0 mm²)",
+        "Crimping Range": "10 to 22 AWG (0.5 to 6.0 mm²)",
+        "Material": "Drop-Forged High Carbon Chrome Vanadium Steel",
+        "Handle": "Ergonomic Dual-Color Non-Slip TPR Cushion Grips"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-016",
+      "name": "Modular Multipurpose Tool & Hardware Storage Organizer Chest",
+      "slug": "modular-multipurpose-tool-hardware-storage-organizer-chest",
+      "sku": "NV-TLS-9902",
+      "category": "Tools",
+      "categorySlug": "tools",
+      "brand": "TorqueForge",
+      "price": 1599,
+      "originalPrice": 2899,
+      "discount": 45,
+      "stock": 22,
+      "images": [
+        "/images/products/tool-organizer-box.jpg"
+      ],
+      "rating": 4.7,
+      "reviewCount": 230,
+      "shortSpec": "24 Removable Dividers | Clear Polycarbonate Lid | Heavy Metal Latches",
+      "description": "Keep fasteners, nuts, bolts, electrical terminals, drill bits, and small hand tools perfectly sorted. High-impact polypropylene construction with reinforced corners that stack and lock securely onto other TorqueForge system cases.",
+      "specifications": {
+        "Dimensions": "420mm x 330mm x 110mm",
+        "Compartments": "24 Customizable Compartments",
+        "Weight Capacity": "20 kg Stack Load",
+        "Lid": "Shatterproof Transparent Polycarbonate"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-009",
+      "name": "Chrome Vanadium Combination Wrench Spanner Set (12-Piece 6-24mm)",
+      "slug": "chrome-vanadium-combination-wrench-spanner-set-12-piece",
+      "sku": "NV-TLS-3419",
+      "category": "Tools",
+      "categorySlug": "tools",
+      "brand": "TorqueForge",
+      "price": 1299,
+      "originalPrice": 2299,
+      "discount": 43,
+      "stock": 35,
+      "images": [
+        "/images/products/wrench-spanner-set.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 512,
+      "shortSpec": "Heat Treated Cr-V Steel | Mirror Polish Finish | Roll-Up Pouch",
+      "description": "Forged from premium chrome vanadium steel with 15-degree angled open end and 12-point box end for high-torque fastener removal without rounding off corners. Includes sizes 6, 8, 10, 11, 12, 13, 14, 15, 17, 19, 22, and 24mm in heavy canvas roll organizer.",
+      "specifications": {
+        "Pieces": "12 Wrenches",
+        "Sizes Included": "6mm, 8mm, 10mm, 11mm, 12mm, 13mm, 14mm, 15mm, 17mm, 19mm, 22mm, 24mm",
+        "Finish": "Triple Chrome Plated Corrosion Resistant",
+        "Warranty": "Lifetime Workmanship Warranty"
+      },
+      "variants": [],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-012",
+      "name": "Heavy-Duty 3-in-1 Magnetic Tape Measure (8 Meter / 26 Feet)",
+      "slug": "heavy-duty-3-in-1-magnetic-tape-measure-8-meter",
+      "sku": "NV-TLS-5088",
+      "category": "Tools",
+      "categorySlug": "tools",
+      "brand": "TorqueForge",
+      "price": 399,
+      "originalPrice": 699,
+      "discount": 43,
+      "stock": 95,
+      "images": [
+        "/images/products/magnetic-tape-measure.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 175,
+      "shortSpec": "Nylon Blade Coating | Double-Sided Metric/Inch | 3.2m Standout",
+      "description": "Built to withstand rough job site drops with thick impact-absorbing rubber over-mold armor. Powerful dual neodymium magnetic hook clings firmly to iron beams and steel conduit pipes. Easy auto-lock mechanism locks blade securely in place.",
+      "specifications": {
+        "Blade Length": "8 Meters (26 Feet)",
+        "Blade Width": "25 mm Extra Wide",
+        "Graduations": "Metric (mm/cm) + Imperial (inches/feet)",
+        "Hook Type": "Double-Sided Dual Magnet"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-004",
+      "name": "Industrial 50W Ultra-Bright Waterproof LED Work Light with Stand",
+      "slug": "industrial-50w-ultra-bright-waterproof-led-work-light-with-stand",
+      "sku": "NV-ELC-5512",
+      "category": "Electrical",
+      "categorySlug": "electrical",
+      "brand": "LumaPro",
+      "price": 1999,
+      "originalPrice": 3499,
+      "discount": 43,
+      "stock": 31,
+      "images": [
+        "/images/products/led-work-light.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 188,
+      "shortSpec": "5000 Lumens | 6500K Cool White Daylight | IP66 Waterproof | Adjustable Telescopic Tripod",
+      "description": "Built for grueling job sites and commercial workshop maintenance, the LumaPro 50W floodlight throws 5000 lumens of glare-free wide daylight. Features an impact-resistant tempered glass face, finned aluminum heatsink, and a 3-meter grounded heavy-duty power cord with quick-locking tripod.",
+      "specifications": {
+        "Power Rating": "50 Watts High-Efficiency SMD LED",
+        "Luminous Flux": "5000 Lumens (100 lm/W)",
+        "Color Temperature": "6500K Cool Daylight",
+        "Waterproof Rating": "IP66 Dust & Water Jet Proof",
+        "Stand Height": "Adjustable from 65cm to 155cm",
+        "Input Voltage": "180V - 265V AC 50Hz"
+      },
+      "variants": [],
+      "isFeatured": true,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-10T23:59:59Z",
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-008",
+      "name": "True-RMS Auto-Ranging Digital Multimeter (6000 Counts)",
+      "slug": "true-rms-auto-ranging-digital-multimeter-6000-counts",
+      "sku": "NV-ELC-7801",
+      "category": "Electrical",
+      "categorySlug": "electrical",
+      "brand": "Voltiq",
+      "price": 2499,
+      "originalPrice": 4199,
+      "discount": 40,
+      "stock": 19,
+      "images": [
+        "/images/products/digital-multimeter.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 265,
+      "shortSpec": "6000 Counts Display | True-RMS AC/DC | NCV Sensor | CAT III 1000V Certified",
+      "description": "The Voltiq True-RMS Digital Multimeter provides accurate AC/DC voltage, current, resistance, capacitance, frequency, and temperature measurements. Built with Non-Contact Voltage (NCV) detection, bright backlit LCD, flashlight, and rugged drop-proof silicone holster.",
+      "specifications": {
+        "DC Voltage": "600mV - 1000V ±(0.5%+3)",
+        "AC Voltage": "6V - 750V ±(0.8%+3) True RMS",
+        "DC/AC Current": "60mA - 10A ±(1.2%+3)",
+        "Safety Category": "CAT III 1000V / CAT IV 600V",
+        "Display": "6000 Counts Backlit Dual-Readout LCD",
+        "Features": "NCV, Continuity Beeper, Diode Test, Data Hold"
+      },
+      "variants": [],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-006",
+      "name": "Smart Wi-Fi 16A High-Power Plug with Energy Meter",
+      "slug": "smart-wifi-16a-high-power-plug-with-energy-meter",
+      "sku": "NV-ELC-9032",
+      "category": "Electrical",
+      "categorySlug": "electrical",
+      "brand": "Voltiq",
+      "price": 899,
+      "originalPrice": 1499,
+      "discount": 40,
+      "stock": 45,
+      "images": [
+        "/images/products/smart-wifi-plug.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 154,
+      "shortSpec": "16A Heavy Load (3500W) | Real-Time Power Monitoring | Overload Surge Protection",
+      "description": "Control geysers, ACs, air purifiers, and water heaters directly from your smartphone. Monitors live kilowatt-hour electricity consumption and logs historical power stats. Features fire-retardant V0 polycarbonate enclosure and child safety shutters.",
+      "specifications": {
+        "Max Current": "16 Amps (Suitable for AC & Water Heaters)",
+        "Max Power Load": "3500 Watts",
+        "Wireless Connectivity": "Wi-Fi 2.4GHz IEEE 802.11 b/g/n",
+        "App Support": "Tuya / Smart Life / Nivora Smart Hub",
+        "Safety Enclosure": "750°C Fire-Resistant PC Shell"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-02T23:59:59Z",
+      "isTrending": false,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-002",
+      "name": "SmartTouch 4-Gang Modular Smart Glass Switch Plate",
+      "slug": "smarttouch-4-gang-modular-smart-glass-switch-plate",
+      "sku": "NV-ELC-1094",
+      "category": "Electrical",
+      "categorySlug": "electrical",
+      "brand": "Voltiq",
+      "price": 1849,
+      "originalPrice": 2999,
+      "discount": 38,
+      "stock": 42,
+      "images": [
+        "/images/products/smart-touch-switch.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 189,
+      "shortSpec": "Tempered Crystal Glass | Capacitive Touch | Wi-Fi + RF433 | Fits Standard 4-Module Wall Box",
+      "description": "Upgrade regular switchboards with luxury scratch-resistant tempered glass capacitive touch switches. Features micro-LED indicators that glow softly in darkness. Compatible with Alexa, Google Home, and smartphone automation schedules.",
+      "specifications": {
+        "Operating Voltage": "90V - 250V AC 50/60Hz",
+        "Load per Gang": "600W Resistive / 150W LED",
+        "Plate Material": "2mm Toughened Crystal Glass",
+        "Standards": "IS 3854 & CE Certified"
+      },
+      "variants": [
+        {
+          "name": "Plate Finish",
+          "options": [
+            "Onyx Black",
+            "Pure Frost White"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 3,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-003",
+      "name": "Commercial Grade PVC 90° Elbow Pipe Fittings (Pack of 10)",
+      "slug": "commercial-grade-pvc-90-elbow-pipe-fittings-pack-of-10",
+      "sku": "NV-PLM-1029",
+      "category": "Plumbing",
+      "categorySlug": "plumbing",
+      "brand": "AquaFlow",
+      "price": 349,
+      "originalPrice": 599,
+      "discount": 42,
+      "stock": 75,
+      "images": [
+        "/images/products/pvc-pipe-fittings.jpg"
+      ],
+      "rating": 4.7,
+      "reviewCount": 94,
+      "shortSpec": "Lead-Free UPVC | Pressure Rated PN16 | High Impact Resistance",
+      "description": "AquaFlow precision molded 90-degree elbow pipe connectors provide leak-proof connections for residential plumbing and agricultural irrigation systems. Manufactured from UV-stabilized unplasticized polyvinyl chloride with ultra-smooth inner walls for minimal friction loss.",
+      "specifications": {
+        "Diameter": "25mm (1 Inch Internal)",
+        "Pressure Rating": "PN 16 (16 Bar)",
+        "Temperature Range": "0°C to 60°C",
+        "Standards": "IS 4985 / ASTM D2466",
+        "Pack Size": "10 Pieces"
+      },
+      "variants": [
+        {
+          "name": "Pipe Size",
+          "options": [
+            "20mm (3/4 Inch)",
+            "25mm (1 Inch)",
+            "32mm (1.25 Inch)"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 3,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-011",
+      "name": "Stainless Steel Rainfall Shower Head & Arm Kit (8 Inch Square)",
+      "slug": "stainless-steel-rainfall-shower-head-arm-kit-8-inch",
+      "sku": "NV-PLM-9110",
+      "category": "Plumbing",
+      "categorySlug": "plumbing",
+      "brand": "AquaFlow",
+      "price": 1499,
+      "originalPrice": 2799,
+      "discount": 46,
+      "stock": 28,
+      "images": [
+        "/images/products/rainfall-shower-head.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 390,
+      "shortSpec": "304 Stainless Steel | Silicone Anti-Clog Jets | Mirror Chrome Finish",
+      "description": "Transform your daily shower into a spa retreat with high-pressure air-injection technology that delivers a soothing drenching rainfall even under low municipal water pressures. Includes a 12-inch heavy brass wall-mount arm and Teflon sealing tape.",
+      "specifications": {
+        "Head Size": "8 Inch x 8 Inch (200mm x 200mm)",
+        "Material": "SUS304 Stainless Steel + Brass Swivel Joint",
+        "Connection": "Standard G 1/2 Inch Threaded",
+        "Nozzles": "100 Soft Easy-Clean Silicone Jets"
+      },
+      "variants": [
+        {
+          "name": "Finish",
+          "options": [
+            "Polished Mirror Chrome",
+            "Matte Black",
+            "Brushed Nickel"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-007",
+      "name": "Solid Brass Full Port Heavy-Duty Ball Valve (1 Inch Female NPT)",
+      "slug": "solid-brass-full-port-heavy-duty-ball-valve-1-inch",
+      "sku": "NV-PLM-6120",
+      "category": "Plumbing",
+      "categorySlug": "plumbing",
+      "brand": "AquaFlow",
+      "price": 649,
+      "originalPrice": 999,
+      "discount": 35,
+      "stock": 58,
+      "images": [
+        "/images/products/brass-ball-valve.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 167,
+      "shortSpec": "Forged Lead-Free Brass | 600 WOG / 150 WSP | PTFE Seals | Rustproof Vinyl Handle",
+      "description": "Engineered for domestic and commercial plumbing, overhead tank mains, and agricultural irrigation pipes. Full port design delivers unrestricted water flow with zero pressure drop. Corrosion-resistant chrome-plated brass ball.",
+      "specifications": {
+        "Thread Size": "1 Inch Female NPT x 1 Inch Female NPT",
+        "Pressure Rating": "600 PSI WOG (Water, Oil, Gas)",
+        "Body Material": "Forged CW617N Lead-Free Solid Brass",
+        "Working Temperature": "-20°C to 120°C"
+      },
+      "variants": [
+        {
+          "name": "Pipe Diameter",
+          "options": [
+            "1/2 Inch",
+            "3/4 Inch",
+            "1 Inch",
+            "1-1/4 Inch"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-015",
+      "name": "Touchless Automatic Sensor Kitchen Sink Faucet with Pull-Down Sprayer",
+      "slug": "touchless-automatic-sensor-kitchen-sink-faucet-with-pull-down-sprayer",
+      "sku": "NV-PLM-8830",
+      "category": "Plumbing",
+      "categorySlug": "plumbing",
+      "brand": "AquaFlow",
+      "price": 4999,
+      "originalPrice": 8499,
+      "discount": 41,
+      "stock": 14,
+      "images": [
+        "/images/products/kitchen-sink-faucet.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 142,
+      "shortSpec": "Motion Infrared Sensor | 3-Function Spray Head | Commercial Matte Black Finish",
+      "description": "Turn water on and off with a simple hand wave. Keep dirty grease and raw food off your faucet handles. Features dual sensor activation, ceramic disc cartridge tested for 500,000 cycles, and a 20-inch retractable braided nylon hose.",
+      "specifications": {
+        "Finish": "Fingerprint-Resistant Electroplated Matte Black",
+        "Valve Core": "High-Grade Drip-Free Ceramic Disc",
+        "Sensor Range": "6cm - 10cm Infrared Motion Detection",
+        "Spout Reach": "220mm (8.7 Inches)",
+        "Battery Operation": "4x AA Alkaline Batteries (18-Month Life)"
+      },
+      "variants": [
+        {
+          "name": "Color Finish",
+          "options": [
+            "Matte Black",
+            "Brushed Nickel",
+            "Chrome Silver"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-08T23:59:59Z",
+      "isTrending": true,
+      "deliveryDays": 3,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-elc-01",
+      "name": "Nivora SoundPro ANC Wireless Over-Ear Studio Headphones (40H Battery)",
+      "slug": "nivora-soundpro-anc-wireless-over-ear-studio-headphones",
+      "sku": "NV-ELC-6210",
+      "category": "Electronics",
+      "categorySlug": "electronics",
+      "brand": "SoundPro",
+      "price": 3499,
+      "originalPrice": 5999,
+      "discount": 41,
+      "stock": 35,
+      "images": [
+        "/images/products/headphones.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 156,
+      "shortSpec": "Hybrid Active Noise Cancellation | 40mm Titanium Drivers | 40-Hour Playtime",
+      "description": "Experience pristine studio sound with hybrid active noise cancellation that blocks up to 35dB of ambient noise. Cushioned memory foam earcups and Bluetooth 5.3 multipoint connectivity enable seamless switching between laptop and smartphone.",
+      "specifications": {
+        "Driver Unit": "40mm Custom Titanium Diaphragms",
+        "Bluetooth": "Version 5.3 with AAC & SBC Codecs",
+        "Battery Life": "40 Hours ANC On / 60 Hours ANC Off",
+        "Charging": "USB-C Fast Charging (10 mins = 5 hours)"
+      },
+      "variants": [
+        {
+          "name": "Color",
+          "options": [
+            "Matte Black",
+            "Graphite Grey"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-013",
+      "name": "Wireless Bluetooth 5.3 Active Noise Cancelling Earbuds",
+      "slug": "wireless-bluetooth-53-active-noise-cancelling-earbuds",
+      "sku": "NV-ELC-3388",
+      "category": "Electronics",
+      "categorySlug": "electronics",
+      "brand": "AcoustiQ",
+      "price": 2499,
+      "originalPrice": 4999,
+      "discount": 50,
+      "stock": 40,
+      "images": [
+        "/images/products/wireless-earbuds.jpg"
+      ],
+      "rating": 4.7,
+      "reviewCount": 640,
+      "shortSpec": "35dB Hybrid ANC | 40-Hour Battery | IPX5 Sweatproof | Low Latency",
+      "description": "Immerse yourself in rich dynamic sound with custom 11mm graphene drivers and adaptive noise cancellation that filters out office chatter and subway rumble. Fast charging gives 2 hours of playtime from a 10-minute USB-C boost.",
+      "specifications": {
+        "Bluetooth Version": "v5.3 with AAC/SBC codec",
+        "Battery Life": "8 Hours (Earbuds) + 32 Hours (Case)",
+        "Water Resistance": "IPX5 Rated",
+        "Microphones": "4 ENC Mics for Crystal Clear Calls"
+      },
+      "variants": [
+        {
+          "name": "Color",
+          "options": [
+            "Midnight Black",
+            "Pearl White",
+            "Slate Grey"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-06T18:00:00Z",
+      "isTrending": true,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-mob-01",
+      "name": "Fast 15W Qi-Certified Ultra-Slim Aluminum Wireless Charger Stand",
+      "slug": "fast-15w-qi-certified-ultra-slim-aluminum-wireless-charger-stand",
+      "sku": "NV-ELE-3310",
+      "category": "Electronics",
+      "categorySlug": "electronics",
+      "brand": "VoltCharge",
+      "price": 999,
+      "originalPrice": 1799,
+      "discount": 44,
+      "stock": 50,
+      "images": [
+        "/images/products/wireless-charger-pad.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 220,
+      "shortSpec": "15W Fast Charge | Dual-Coil Portrait & Landscape | Foreign Object Detection",
+      "description": "Designed for desks and nightstands, this dual-coil wireless charging stand charges smartphones upright or horizontally while watching media. CNC machined aviation aluminum base dissipates heat efficiently.",
+      "specifications": {
+        "Output": "15W / 10W / 7.5W / 5W Auto-Switching",
+        "Input": "USB-C QC 3.0 / PD 20W Recommended",
+        "Safety": "Over-Temperature, Over-Voltage & FOD Protection",
+        "Compatibility": "Universal Qi-Enabled iPhone, Samsung & Android"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-12T23:59:59Z",
+      "isTrending": false,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-014",
+      "name": "Fast 15W Qi-Certified Ultra-Slim Aluminum Wireless Charger",
+      "slug": "fast-15w-qi-certified-ultra-slim-wireless-charger",
+      "sku": "NV-ELE-6610",
+      "category": "Electronics",
+      "categorySlug": "electronics",
+      "brand": "Voltiq",
+      "price": 799,
+      "originalPrice": 1499,
+      "discount": 47,
+      "stock": 55,
+      "images": [
+        "/images/products/wireless-charger-pad.jpg"
+      ],
+      "rating": 4.5,
+      "reviewCount": 198,
+      "shortSpec": "15W Max Output | CNC Aluminum Base | Non-Slip Silicone Ring",
+      "description": "Sleek, heat-dissipating aerospace-grade aluminum charging pad compatible with all Qi-enabled iPhone and Android devices. Auto-detects device wattage (5W/7.5W/10W/15W) with intelligent foreign object detection and temperature protection.",
+      "specifications": {
+        "Output Modes": "15W / 10W / 7.5W / 5W Fast Charge",
+        "Input Port": "USB Type-C (5V/2A, 9V/2A, 12V/1.5A)",
+        "Thickness": "Only 5.8mm Ultra-Thin Profile",
+        "Compatibility": "Universal Qi Standard"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-fur-01",
+      "name": "Ergonomic High-Back Breathable Mesh Office Desk Chair with Lumbar Support",
+      "slug": "ergonomic-high-back-breathable-mesh-office-desk-chair",
+      "sku": "NV-FUR-7010",
+      "category": "Furniture",
+      "categorySlug": "furniture",
+      "brand": "ErgoComfort",
+      "price": 7999,
+      "originalPrice": 13999,
+      "discount": 42,
+      "stock": 16,
+      "images": [
+        "/images/products/office-chair.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 112,
+      "shortSpec": "Dynamic 3D Lumbar Support | 2D Adjustable Armrests | Class 4 Gas Lift | 135° Recline",
+      "description": "Engineered for 10+ hour workdays, this ergonomic executive chair features a Korean breathable mesh back, contoured high-density molded foam seat cushion, and heavy-duty steel wheelbase tested for 136 kg capacity.",
+      "specifications": {
+        "Weight Capacity": "136 kg (300 lbs)",
+        "Mechanism": "Multi-Lock Synchro Tilt (90° to 135°)",
+        "Gas Lift": "BIFMA Level 4 Certified Cylinder",
+        "Wheels": "60mm Quiet Smooth-Glide PU Casters"
+      },
+      "variants": [],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 3,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-hap-01",
+      "name": "TurboPower 1200W Commercial High-Speed Countertop Kitchen Blender",
+      "slug": "turbopower-1200w-commercial-high-speed-kitchen-blender",
+      "sku": "NV-HAP-8012",
+      "category": "Home Appliances",
+      "categorySlug": "home-appliances",
+      "brand": "ChefMaster",
+      "price": 3299,
+      "originalPrice": 5499,
+      "discount": 40,
+      "stock": 22,
+      "images": [
+        "/images/products/kitchen-blender.jpg"
+      ],
+      "rating": 4.7,
+      "reviewCount": 98,
+      "shortSpec": "1200W Pure Copper Motor | 2L BPA-Free Tritan Pitcher | 6 Stainless Steel Blades",
+      "description": "Crush whole ice cubes, blend smooth fruit smoothies, and grind tough spices in seconds. Equipped with a heavy-duty copper motor spinning at 28,000 RPM and variable speed dial with pulse function.",
+      "specifications": {
+        "Power Rating": "1200 Watts (28,000 RPM Max)",
+        "Jar Capacity": "2.0 Liters Thermal Shock Resistant Tritan",
+        "Blade Material": "Aircraft-Grade Japanese 304 Stainless Steel",
+        "Safety Lock": "Automatic Microswitch Lid Sensor"
+      },
+      "variants": [],
+      "isFeatured": true,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-18T23:59:59Z",
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-aut-01",
+      "name": "Digital Portable 12V High-Pressure Car Tyre Inflator & Emergency LED Light",
+      "slug": "digital-portable-12v-high-pressure-car-tyre-inflator",
+      "sku": "NV-AUT-6014",
+      "category": "Automotive",
+      "categorySlug": "automotive",
+      "brand": "AutoDrive",
+      "price": 1899,
+      "originalPrice": 3299,
+      "discount": 42,
+      "stock": 28,
+      "images": [
+        "/images/products/car-inflator.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 145,
+      "shortSpec": "150 PSI Max Pressure | Auto Shut-Off Preset | Digital Backlit LCD | 3.5m 12V Cord",
+      "description": "Never get stranded with low tire pressure. Pumps a flat car tire from 0 to 35 PSI in under 4 minutes. Program desired target pressure and the pump automatically shuts off when reached.",
+      "specifications": {
+        "Max Pressure": "150 PSI / 10.3 Bar",
+        "Power Source": "12V DC Vehicle Cigarette Lighter Socket",
+        "Airflow Rate": "35 Liters / Minute",
+        "Includes": "3 Nozzle Adapters for Balls, Bikes & Mattresses"
+      },
+      "variants": [],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-bty-01",
+      "name": "Professional 2200W Negative Ionic Salon Hair Dryer & Styling Diffuser",
+      "slug": "professional-2200w-negative-ionic-salon-hair-dryer",
+      "sku": "NV-BTY-1120",
+      "category": "Beauty",
+      "categorySlug": "beauty",
+      "brand": "GlamPro",
+      "price": 1499,
+      "originalPrice": 2499,
+      "discount": 40,
+      "stock": 36,
+      "images": [
+        "/images/products/salon-hair-dryer.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 88,
+      "shortSpec": "2200W AC Salon Motor | Tourmaline Ceramic Technology | Cool Shot Button",
+      "description": "Reduces hair frizz by up to 80% while cutting drying time in half. Features 3 heat settings, 2 speed modes, and concentrator nozzle for precision styling.",
+      "specifications": {
+        "Power": "2200 Watts High-Torque AC Motor",
+        "Technology": "Tourmaline Ionic Conditioning",
+        "Cord Length": "2.5m Professional Swivel Cord"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-fsh-01",
+      "name": "Heavy-Duty Steel Toe Waterproof Safety Work Boots (Oil & Acid Resistant)",
+      "slug": "heavy-duty-steel-toe-waterproof-safety-work-boots",
+      "sku": "NV-FSH-4102",
+      "category": "Fashion",
+      "categorySlug": "fashion",
+      "brand": "ToughArmor",
+      "price": 2199,
+      "originalPrice": 3899,
+      "discount": 43,
+      "stock": 40,
+      "images": [
+        "/images/products/safety-work-boots.jpg"
+      ],
+      "rating": 4.7,
+      "reviewCount": 164,
+      "shortSpec": "Steel Toe Cap (200J Impact) | Anti-Puncture Steel Midsole | Antistatic PU Sole",
+      "description": "Built for industrial construction sites and mining environments. Certified ISO 20345 S3 standard with breathable leather upper and shock-absorbing heel.",
+      "specifications": {
+        "Toe Protection": "200 Joules Impact Resistance Steel Toe",
+        "Upper": "Genuine Water-Resistant Full-Grain Leather",
+        "Sole": "Double Density Oil & Chemical Resistant PU"
+      },
+      "variants": [
+        {
+          "name": "Size",
+          "options": [
+            "UK 7",
+            "UK 8",
+            "UK 9",
+            "UK 10",
+            "UK 11"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-gro-01",
+      "name": "Premium Single-Origin Arabica Roasted Whole Coffee Beans (1kg Bag)",
+      "slug": "premium-single-origin-arabica-roasted-whole-coffee-beans-1kg",
+      "sku": "NV-GRO-5100",
+      "category": "Grocery",
+      "categorySlug": "grocery",
+      "brand": "EstateRoast",
+      "price": 849,
+      "originalPrice": 1299,
+      "discount": 34,
+      "stock": 60,
+      "images": [
+        "/images/products/roasted-coffee-beans.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 195,
+      "shortSpec": "100% Grade AAA Arabica | Medium-Dark Roast | Notes of Cocoa & Caramel",
+      "description": "Sourced directly from certified shade-grown estates in Chikmagalur, Karnataka. Freshly small-batch roasted with one-way degassing aroma valve.",
+      "specifications": {
+        "Weight": "1000g (1 Kilogram)",
+        "Bean Type": "100% Arabica Specialty Grade",
+        "Roast Profile": "Medium-Dark Roast"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-bok-01",
+      "name": "Mastering Modern Electrical Engineering & Construction Handbook (Hardcover)",
+      "slug": "mastering-modern-electrical-engineering-construction-handbook",
+      "sku": "NV-BOK-1020",
+      "category": "Books",
+      "categorySlug": "books",
+      "brand": "TechPress",
+      "price": 999,
+      "originalPrice": 1699,
+      "discount": 41,
+      "stock": 25,
+      "images": [
+        "/images/products/engineering-book.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 76,
+      "shortSpec": "820 Pages | Full-Color Schematics | NEC & IS Wiring Code Compliance",
+      "description": "The definitive reference manual for electrical contractors, supervisors, and engineering students. Covers switchgear sizing, grounding, and commercial automation.",
+      "specifications": {
+        "Pages": "820 Pages with Diagram Foldouts",
+        "Publisher": "Nivora Technical Education Press (2026 Edition)",
+        "Format": "Hardcover Smyth-Sewn"
+      },
+      "variants": [],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-spt-01",
+      "name": "Insulated Stainless Steel Vacuum Sports Water Bottle 1000ml (24h Cold)",
+      "slug": "insulated-stainless-steel-vacuum-sports-water-bottle-1000ml",
+      "sku": "NV-SPT-2200",
+      "category": "Sports",
+      "categorySlug": "sports",
+      "brand": "HydroVibe",
+      "price": 699,
+      "originalPrice": 1199,
+      "discount": 41,
+      "stock": 45,
+      "images": [
+        "/images/products/sports-water-bottle.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 210,
+      "shortSpec": "18/8 Pro-Grade Steel | Double-Wall Vacuum | 24 Hours Cold / 12 Hours Hot",
+      "description": "Built for tough construction worksites, gym sessions, and outdoor trekking. Powder-coated matte finish prevents condensation sweat and slipping.",
+      "specifications": {
+        "Capacity": "1000ml (34 fl oz)",
+        "Material": "Kitchen-Grade 18/8 Stainless Steel",
+        "Lid": "Leakproof Silicone Gasket with Carry Handle"
+      },
+      "variants": [
+        {
+          "name": "Color",
+          "options": [
+            "Matte Black",
+            "Cobalt Blue",
+            "Army Green"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": false,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-29T13:55:20.917Z"
+    },
+    {
+      "_id": "prod-mob-samsung-01",
+      "name": "Samsung Galaxy S24 5G (8GB RAM, 128GB Storage, Onyx Black)",
+      "slug": "samsung-galaxy-s24-5g-onyx-black",
+      "sku": "NV-MOB-SAM-01",
+      "category": "Mobiles",
+      "categorySlug": "mobiles",
+      "brand": "Samsung",
+      "price": 64999,
+      "originalPrice": 79999,
+      "discount": 19,
+      "stock": 22,
+      "images": [
+        "/images/products/samsung-galaxy-s24.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 312,
+      "shortSpec": "Dynamic AMOLED 2X 120Hz | Snapdragon 8 Gen 3 | 50MP AI Triple Camera | 4000mAh Battery",
+      "description": "The Samsung Galaxy S24 5G delivers flagship mobile computing with a 6.2-inch FHD+ Dynamic AMOLED 2X 120Hz adaptive display and Armor Aluminum frame. Powered by cutting-edge octa-core processing, 50MP dual-pixel OIS main camera with 3x optical zoom, IP68 water resistance, and Knox Vault hardware security.",
+      "specifications": {
+        "Display": "6.2\" FHD+ Dynamic AMOLED 2X (2340 x 1080), 120Hz Adaptive",
+        "Processor": "Snapdragon 8 Gen 3 / Exynos 2400 Octa-Core 4nm",
+        "RAM & Storage": "8GB LPDDR5X | 128GB UFS 4.0",
+        "Rear Camera": "50MP (OIS, f/1.8) + 12MP Ultra-Wide + 10MP Telephoto (3x Optical)",
+        "Front Camera": "12MP Dual Pixel AF (f/2.2)",
+        "Battery & Charging": "4000 mAh, 25W Fast Wired Charging, Fast Wireless 2.0",
+        "Operating System": "One UI 6.1 based on Android 14"
+      },
+      "variants": [
+        {
+          "name": "Storage",
+          "options": [
+            "128GB",
+            "256GB"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-18T23:59:59Z",
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-30T13:26:01.197Z"
+    },
+    {
+      "_id": "prod-mob-samsung-02",
+      "name": "Samsung Galaxy A55 5G (8GB RAM, 128GB Storage, Awesome Navy)",
+      "slug": "samsung-galaxy-a55-5g-awesome-navy",
+      "sku": "NV-MOB-SAM-02",
+      "category": "Mobiles",
+      "categorySlug": "mobiles",
+      "brand": "Samsung",
+      "price": 36999,
+      "originalPrice": 42999,
+      "discount": 14,
+      "stock": 28,
+      "images": [
+        "/images/products/samsung-galaxy-a55.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 185,
+      "shortSpec": "6.6\" Super AMOLED 120Hz | Exynos 1480 | 50MP OIS Camera | 5000mAh Battery",
+      "description": "Samsung Galaxy A55 5G combines premium metal-flat frame design with Gorilla Glass Victus+ protection. Features a 6.6-inch Super AMOLED 120Hz Vision Booster screen, 50MP triple camera setup with Nightography, and a robust 5000mAh battery for all-day connectivity.",
+      "specifications": {
+        "Display": "6.6\" Super AMOLED (1080 x 2340), 120Hz Refresh Rate",
+        "Processor": "Samsung Exynos 1480 Octa-Core 4nm",
+        "RAM & Storage": "8GB RAM | 128GB Storage (expandable up to 1TB)",
+        "Rear Camera": "50MP Main OIS + 12MP Ultra-Wide + 5MP Macro",
+        "Front Camera": "32MP High-Res Selfie Camera",
+        "Battery": "5000 mAh with 25W Fast Charging support",
+        "Durability": "IP67 Dust & Water Resistant"
+      },
+      "variants": [
+        {
+          "name": "Color",
+          "options": [
+            "Awesome Navy",
+            "Awesome Iceblue"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-30T13:26:01.198Z"
+    },
+    {
+      "_id": "prod-mob-apple-01",
+      "name": "Apple iPhone 15 (128GB, Blue)",
+      "slug": "apple-iphone-15-128gb-blue",
+      "sku": "NV-MOB-APL-01",
+      "category": "Mobiles",
+      "categorySlug": "mobiles",
+      "brand": "Apple",
+      "price": 71999,
+      "originalPrice": 79900,
+      "discount": 10,
+      "stock": 19,
+      "images": [
+        "/images/products/apple-iphone-15.jpg"
+      ],
+      "rating": 4.9,
+      "reviewCount": 428,
+      "shortSpec": "Super Retina XDR OLED | Dynamic Island | A16 Bionic | 48MP Main Camera | USB-C",
+      "description": "Apple iPhone 15 features Dynamic Island alerts, an advanced 48MP main camera with 2x Telephoto optical quality, and color-infused durable back glass with contoured edges. Powered by the A16 Bionic chip, Universal USB-C connector, and industry-leading Ceramic Shield front glass.",
+      "specifications": {
+        "Display": "6.1\" Super Retina XDR OLED (2556 x 1179) @ 460 ppi, HDR",
+        "Chip": "A16 Bionic Chip (6-Core CPU, 5-Core GPU, 16-Core Neural Engine)",
+        "Storage": "128GB NVMe",
+        "Camera System": "Advanced Dual Camera: 48MP Main + 12MP Ultra Wide with 2x Telephoto",
+        "Connector": "USB-C Port with USB 2 support",
+        "Durability": "Ceramic Shield Front, IP68 Rated (6m for up to 30 mins)",
+        "Operating System": "iOS 17 upgradable"
+      },
+      "variants": [
+        {
+          "name": "Storage",
+          "options": [
+            "128GB",
+            "256GB"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": true,
+      "dealEndsAt": "2026-10-15T23:59:59Z",
+      "isTrending": true,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-30T13:26:01.198Z"
+    },
+    {
+      "_id": "prod-mob-apple-02",
+      "name": "Apple iPhone 14 (128GB, Midnight)",
+      "slug": "apple-iphone-14-128gb-midnight",
+      "sku": "NV-MOB-APL-02",
+      "category": "Mobiles",
+      "categorySlug": "mobiles",
+      "brand": "Apple",
+      "price": 58999,
+      "originalPrice": 69900,
+      "discount": 16,
+      "stock": 24,
+      "images": [
+        "/images/products/apple-iphone-14.jpg"
+      ],
+      "rating": 4.7,
+      "reviewCount": 512,
+      "shortSpec": "Super Retina XDR OLED | A15 Bionic 5-Core GPU | Dual 12MP Photonic Engine | Ceramic Shield",
+      "description": "iPhone 14 offers incredible all-day battery life, emergency Crash Detection, and pro-level photos with Photonic Engine low-light processing. Built with aerospace-grade aluminum and Ceramic Shield front glass.",
+      "specifications": {
+        "Display": "6.1\" Super Retina XDR OLED (2532 x 1170) @ 460 ppi",
+        "Chip": "A15 Bionic (6-Core CPU, 5-Core GPU, 16-Core Neural Engine)",
+        "Storage": "128GB",
+        "Camera": "12MP Main + 12MP Ultra-Wide, TrueDepth 12MP Front Camera",
+        "Battery": "Up to 20 Hours Video Playback, MagSafe Wireless Charging",
+        "Safety": "Emergency SOS via Satellite and Crash Detection"
+      },
+      "variants": [
+        {
+          "name": "Color",
+          "options": [
+            "Midnight",
+            "Starlight"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-30T13:26:01.198Z"
+    },
+    {
+      "_id": "prod-mob-oppo-01",
+      "name": "Oppo Reno11 Pro 5G (12GB RAM, 256GB Storage, Pearl White)",
+      "slug": "oppo-reno11-pro-5g-pearl-white",
+      "sku": "NV-MOB-OPP-01",
+      "category": "Mobiles",
+      "categorySlug": "mobiles",
+      "brand": "Oppo",
+      "price": 37999,
+      "originalPrice": 44999,
+      "discount": 16,
+      "stock": 20,
+      "images": [
+        "/images/products/oppo-reno11-pro.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 142,
+      "shortSpec": "3D Curved 120Hz OLED | MediaTek Dimensity 8200 | 32MP Telephoto Portrait | 80W SUPERVOOC",
+      "description": "The Oppo Reno11 Pro 5G is the portrait expert smartphone with a dedicated 32MP Sony IMX709 2x optical portrait lens and 50MP Sony IMX890 main camera with OIS. Engineered with a silky 3D curved 120Hz AMOLED borderless screen and 80W SUPERVOOC flash charge.",
+      "specifications": {
+        "Display": "6.7\" 3D Curved AMOLED (2412 x 1080), 120Hz, 950 nits HDR10+",
+        "Processor": "MediaTek Dimensity 8200 (4nm, up to 3.1 GHz)",
+        "RAM & Storage": "12GB LPDDR5X (+12GB RAM Expansion) | 256GB UFS 3.1",
+        "Rear Camera": "50MP Main (Sony IMX890 OIS) + 32MP Telephoto Portrait + 8MP Ultra-Wide",
+        "Front Camera": "32MP AF Ultra-Clear Selfie",
+        "Charging": "4600 mAh Battery with 80W SUPERVOOC Flash Charge (100% in 28 mins)",
+        "OS": "ColorOS 14 based on Android 14"
+      },
+      "variants": [
+        {
+          "name": "Color",
+          "options": [
+            "Pearl White",
+            "Rock Grey"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-30T13:26:01.198Z"
+    },
+    {
+      "_id": "prod-mob-oppo-02",
+      "name": "Oppo F25 Pro 5G (8GB RAM, 128GB Storage, Lava Red)",
+      "slug": "oppo-f25-pro-5g-lava-red",
+      "sku": "NV-MOB-OPP-02",
+      "category": "Mobiles",
+      "categorySlug": "mobiles",
+      "brand": "Oppo",
+      "price": 23999,
+      "originalPrice": 28999,
+      "discount": 17,
+      "stock": 35,
+      "images": [
+        "/images/products/oppo-f25-pro.jpg"
+      ],
+      "rating": 4.5,
+      "reviewCount": 96,
+      "shortSpec": "Borderless 120Hz AMOLED | 64MP 4K Ultra-Clear Triple Camera | IP65 Water Resistance | 67W Charge",
+      "description": "Oppo F25 Pro 5G delivers stunning visual immersion with an ultra-narrow bezel 6.7-inch 120Hz AMOLED screen and IP65 dust and water resistance. Features 4K video recording on both front and rear cameras and 67W SUPERVOOC charging.",
+      "specifications": {
+        "Display": "6.7\" Flexible AMOLED (2412 x 1080) 120Hz, 1.1 Billion Colors",
+        "Processor": "MediaTek Dimensity 7050 Octa-Core (6nm, 2.6 GHz)",
+        "RAM & Storage": "8GB LPDDR4X | 128GB UFS 3.1",
+        "Cameras": "64MP Ultra-Clear Main + 8MP Wide-Angle + 2MP Macro, 32MP Front",
+        "Battery": "5000 mAh with 67W SUPERVOOC Flash Charge",
+        "Protection": "IP65 Water and Dust Resistance rating"
+      },
+      "variants": [
+        {
+          "name": "Color",
+          "options": [
+            "Lava Red",
+            "Ocean Blue"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": true,
+      "isTrending": false,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-30T13:26:01.198Z"
+    },
+    {
+      "_id": "prod-mob-vivo-01",
+      "name": "Vivo V30 Pro 5G (12GB RAM, 512GB Storage, Peacock Green)",
+      "slug": "vivo-v30-pro-5g-peacock-green",
+      "sku": "NV-MOB-VIV-01",
+      "category": "Mobiles",
+      "categorySlug": "mobiles",
+      "brand": "Vivo",
+      "price": 41999,
+      "originalPrice": 46999,
+      "discount": 11,
+      "stock": 18,
+      "images": [
+        "/images/products/vivo-v30-pro.jpg"
+      ],
+      "rating": 4.8,
+      "reviewCount": 165,
+      "shortSpec": "ZEISS Professional Portrait Camera | Smart Aura Light | 1.5K 120Hz Curved AMOLED | 80W FlashCharge",
+      "description": "Co-engineered with ZEISS, the Vivo V30 Pro 5G features a triple 50MP Sony sensor array with ZEISS optics and studio-grade Smart Aura Light. Powered by the Dimensity 8200 flagship chip, ultra-slim 7.45mm body, and 5000mAh battery.",
+      "specifications": {
+        "Display": "6.78\" 1.5K 3D Curved AMOLED (2800 x 1260), 120Hz, 2800 nits Peak",
+        "Processor": "MediaTek Dimensity 8200 Octa-Core (4nm)",
+        "Optics": "ZEISS Professional Camera: 50MP Sony IMX920 OIS + 50MP Telephoto Portrait + 50MP Ultra Wide",
+        "Front Camera": "50MP Eye AF Group Selfie Camera (92° FoV)",
+        "RAM & Storage": "12GB RAM | 512GB Storage",
+        "Battery": "5000 mAh with 80W FlashCharge (100% in approx 46 mins)",
+        "Thickness": "7.45mm Ultra-Thin 3D Curved Glass"
+      },
+      "variants": [
+        {
+          "name": "Storage",
+          "options": [
+            "256GB",
+            "512GB"
+          ]
+        }
+      ],
+      "isFeatured": true,
+      "isDeal": false,
+      "isTrending": true,
+      "deliveryDays": 1,
+      "createdAt": "2026-09-30T13:26:01.198Z"
+    },
+    {
+      "_id": "prod-mob-vivo-02",
+      "name": "Vivo T3 5G (8GB RAM, 128GB Storage, Crystal Flake)",
+      "slug": "vivo-t3-5g-crystal-flake",
+      "sku": "NV-MOB-VIV-02",
+      "category": "Mobiles",
+      "categorySlug": "mobiles",
+      "brand": "Vivo",
+      "price": 19999,
+      "originalPrice": 22999,
+      "discount": 13,
+      "stock": 40,
+      "images": [
+        "/images/products/vivo-t3-5g.jpg"
+      ],
+      "rating": 4.6,
+      "reviewCount": 210,
+      "shortSpec": "MediaTek Dimensity 7200 5G | 50MP Sony IMX882 OIS | 120Hz AMOLED 1800 nits | Dual Stereo Speakers",
+      "description": "Vivo T3 5G delivers segment-leading performance powered by the MediaTek Dimensity 7200 processor with 734K+ AnTuTu score. Includes a 50MP Sony IMX882 OIS anti-shake camera, bright 120Hz AMOLED display with in-display fingerprint scanner, and dual stereo speakers.",
+      "specifications": {
+        "Display": "6.67\" FHD+ AMOLED (2400 x 1080), 120Hz, 1800 nits Peak",
+        "Processor": "MediaTek Dimensity 7200 (4nm, up to 2.8 GHz)",
+        "RAM & Storage": "8GB LPDDR4X (+8GB Extended RAM) | 128GB UFS 2.2",
+        "Camera": "50MP Sony IMX882 OIS + 2MP Bokeh, 16MP Selfie",
+        "Audio": "Dual Stereo Speakers with 200% Volume Audio Booster",
+        "Battery": "5000 mAh with 44W FlashCharge"
+      },
+      "variants": [
+        {
+          "name": "Color",
+          "options": [
+            "Crystal Flake",
+            "Cosmic Blue"
+          ]
+        }
+      ],
+      "isFeatured": false,
+      "isDeal": true,
+      "isTrending": true,
+      "deliveryDays": 2,
+      "createdAt": "2026-09-30T13:26:01.198Z"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "cat-electronics",
+      "name": "Electronics",
+      "slug": "electronics",
+      "icon": "cpu",
+      "description": "Smart gadgets, audio equipment, wireless chargers, adapters, and power accessories",
+      "productCount": 2
+    },
+    {
+      "_id": "cat-mobiles",
+      "name": "Mobiles",
+      "slug": "mobiles",
+      "icon": "smartphone",
+      "description": "Flagship smartphones, 5G mobiles, and high-performance Android & iOS devices",
+      "productCount": 2
+    },
+    {
+      "_id": "cat-computers",
+      "name": "Computers",
+      "slug": "computers",
+      "icon": "monitor",
+      "description": "Laptops, monitors, networking gear, and desktop accessories",
+      "productCount": 2
+    },
+    {
+      "_id": "cat-electrical",
+      "name": "Electrical",
+      "slug": "electrical",
+      "icon": "zap",
+      "description": "Switches, wiring, circuit breakers, multimeters, and LED fixtures",
+      "productCount": 4
+    },
+    {
+      "_id": "cat-beauty",
+      "name": "Beauty",
+      "slug": "beauty",
+      "icon": "sparkles",
+      "description": "Grooming tools, personal care essentials, and styling appliances",
+      "productCount": 1
+    },
+    {
+      "_id": "cat-home-appliances",
+      "name": "Home Appliances",
+      "slug": "home-appliances",
+      "icon": "home",
+      "description": "Heaters, water purifiers, kitchen blenders, and vacuum cleaners",
+      "productCount": 1
+    },
+    {
+      "_id": "cat-fashion",
+      "name": "Fashion",
+      "slug": "fashion",
+      "icon": "shirt",
+      "description": "Workwear apparel, durable belts, jackets, and safety boots",
+      "productCount": 1
+    },
+    {
+      "_id": "cat-grocery",
+      "name": "Grocery",
+      "slug": "grocery",
+      "icon": "shopping-bag",
+      "description": "Commercial pantry supplies, beverages, and packaged staples",
+      "productCount": 1
+    },
+    {
+      "_id": "cat-furniture",
+      "name": "Furniture",
+      "slug": "furniture",
+      "icon": "armchair",
+      "description": "Workbenches, ergonomic office chairs, and industrial racks",
+      "productCount": 1
+    },
+    {
+      "_id": "cat-books",
+      "name": "Books",
+      "slug": "books",
+      "icon": "book-open",
+      "description": "Engineering manuals, architectural handbooks, and study guides",
+      "productCount": 1
+    },
+    {
+      "_id": "cat-sports",
+      "name": "Sports",
+      "slug": "sports",
+      "icon": "activity",
+      "description": "Fitness equipment, outdoor survival gear, and hydration flasks",
+      "productCount": 1
+    },
+    {
+      "_id": "cat-automotive",
+      "name": "Automotive",
+      "slug": "automotive",
+      "icon": "car",
+      "description": "Tyre inflators, car detailing kits, jump starters, and toolkits",
+      "productCount": 1
+    },
+    {
+      "_id": "cat-tools",
+      "name": "Tools",
+      "slug": "tools",
+      "icon": "wrench",
+      "description": "Cordless power drills, wrench sets, socket kits, and hammers",
+      "productCount": 6
+    },
+    {
+      "_id": "cat-plumbing",
+      "name": "Plumbing",
+      "slug": "plumbing",
+      "icon": "droplets",
+      "description": "Pipes, brass ball valves, chrome shower fixtures, and sealants",
+      "productCount": 4
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ord-10001",
+      "orderId": "NIV-ORD-77821",
+      "userId": "usr-cust-01",
+      "customerName": "Rajesh Kumar",
+      "customerEmail": "customer@nivoramarket.com",
+      "customerPhone": "+91 98765 43210",
+      "items": [
+        {
+          "productId": "prod-001",
+          "name": "Pro-Duty 20V Cordless Brushless Drill Driver Kit",
+          "price": 3899,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=800&q=80",
+          "sku": "NV-TLS-8821",
+          "variant": "Standard (2 Batteries)"
+        },
+        {
+          "productId": "prod-005",
+          "name": "Heavy-Duty Nitrile Coated Safety Work Gloves (Pack of 6 Pairs)",
+          "price": 499,
+          "quantity": 2,
+          "image": "/images/products/nitrile-work-gloves.jpg",
+          "sku": "NV-TLS-1205",
+          "variant": "Large (9)"
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "Rajesh Kumar",
+        "phone": "+91 98765 43210",
+        "street": "Flat 302, Green Valley Apartments, MG Road",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560001",
+        "type": "home"
+      },
+      "payment": {
+        "method": "DEMO_UPI",
+        "transactionId": "DEMO-TXN-10001",
+        "status": "COMPLETED",
+        "paidAt": "2026-09-27T04:31:59.358Z",
+        "details": "Simulated UPI payment via test@okhdfcbank"
+      },
+      "pricing": {
+        "subtotal": 4897,
+        "discount": 200,
+        "deliveryCharge": 0,
+        "total": 4697
+      },
+      "status": "SHIPPED",
+      "timeline": [
+        {
+          "status": "Order Placed",
+          "timestamp": "2026-09-27T04:31:59.358Z",
+          "note": "Order successfully created with simulated payment."
+        },
+        {
+          "status": "Confirmed",
+          "timestamp": "2026-09-27T08:31:59.358Z",
+          "note": "Seller confirmed order and allocated inventory."
+        },
+        {
+          "status": "Packed",
+          "timestamp": "2026-09-27T20:31:59.358Z",
+          "note": "Goods inspected, packed in Nivora tamper-proof box."
+        },
+        {
+          "status": "Shipped",
+          "timestamp": "2026-09-28T08:31:59.358Z",
+          "note": "Handed over to Nivora Express Logistics (AWB: NV8839210)."
+        }
+      ],
+      "trackingNumber": "NV8839210",
+      "estimatedDelivery": "Wednesday, Oct 1",
+      "createdAt": "2026-09-27T04:31:59.358Z"
+    }
+  ],
+  "carts": {
+    "usr-cust-01": [
+      {
+        "productId": "prod-004",
+        "quantity": 1
+      }
+    ]
+  },
+  "wishlists": {
+    "usr-cust-01": [],
+    "guest": []
+  },
+  "reviews": [
+    {
+      "_id": "rev-01",
+      "productId": "prod-001",
+      "userId": "usr-cust-01",
+      "userName": "Rajesh Kumar",
+      "rating": 5,
+      "title": "Monster torque, easily handled 3-inch screws!",
+      "comment": "The brushless motor on this Nivora drill is phenomenal. Ran all day building heavy wooden shelves without overheating. The 2 batteries charge in under 45 minutes.",
+      "createdAt": "2026-09-27T16:31:59.358Z"
+    },
+    {
+      "_id": "rev-02",
+      "productId": "prod-002",
+      "userId": "usr-cust-01",
+      "userName": "Amit S.",
+      "rating": 5,
+      "title": "Looks super premium on the living room wall",
+      "comment": "Glass panel finish gives a 5-star hotel look to the room. The soft orange indicator is easy to locate in pitch darkness.",
+      "createdAt": "2026-09-26T16:31:59.358Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif-01",
+      "userId": "usr-cust-01",
+      "title": "Order Shipped!",
+      "message": "Your order #NIV-ORD-77821 is out for transit with Nivora Express. Estimated delivery: Oct 1.",
+      "type": "order",
+      "isRead": false,
+      "link": "/orders/ord-10001/tracking",
+      "createdAt": "2026-09-28T08:31:59.358Z"
+    },
+    {
+      "_id": "notif-02",
+      "userId": "usr-cust-01",
+      "title": "Welcome to Nivora Market!",
+      "message": "Use coupon code NIVORA10 during checkout to get 10% instant discount on your orders.",
+      "type": "promo",
+      "isRead": true,
+      "link": "/products",
+      "createdAt": "2026-09-25T16:31:59.358Z"
+    },
+    {
+      "_id": "notif-1790689897318",
+      "userId": "usr-1790689897317",
+      "title": "Welcome to Nivora Market!",
+      "message": "Your account has been created. Start exploring contractor deals and home essentials today.",
+      "type": "account",
+      "isRead": false,
+      "link": "/products",
+      "createdAt": "2026-09-29T13:51:37.318Z"
+    },
+    {
+      "_id": "notif-1790690881440",
+      "userId": "usr-1790690881439",
+      "title": "Welcome to Nivora Market!",
+      "message": "Your customer account has been created. Start exploring contractor deals and home essentials today.",
+      "type": "account",
+      "isRead": false,
+      "link": "/products",
+      "createdAt": "2026-09-29T14:08:01.440Z"
+    },
+    {
+      "_id": "notif-1790690882022",
+      "userId": "usr-1790690882021",
+      "title": "Welcome to Nivora Market!",
+      "message": "Your customer account has been created. Start exploring contractor deals and home essentials today.",
+      "type": "account",
+      "isRead": false,
+      "link": "/products",
+      "createdAt": "2026-09-29T14:08:02.022Z"
+    },
+    {
+      "_id": "notif-1790775183258",
+      "userId": "usr-1790775183258",
+      "title": "Welcome to Nivora Market!",
+      "message": "Your customer account has been created. Start exploring contractor deals and home essentials today.",
+      "type": "account",
+      "isRead": false,
+      "link": "/products",
+      "createdAt": "2026-09-30T13:33:03.258Z"
+    },
+    {
+      "_id": "notif-1790780195403",
+      "userId": "usr-1790780195402",
+      "title": "Welcome to Nivora Market!",
+      "message": "Your customer account has been created. Start exploring contractor deals and home essentials today.",
+      "type": "account",
+      "isRead": false,
+      "link": "/products",
+      "createdAt": "2026-09-30T14:56:35.403Z"
+    },
+    {
+      "_id": "notif-1790784394183",
+      "userId": "usr-1790784394183",
+      "title": "Welcome to Nivora Market!",
+      "message": "Your customer account has been created. Start exploring contractor deals and home essentials today.",
+      "type": "account",
+      "isRead": false,
+      "link": "/products",
+      "createdAt": "2026-09-30T16:06:34.183Z"
+    }
+  ],
+  "coupons": [
+    {
+      "code": "NIVORA10",
+      "discountPercent": 10,
+      "minOrder": 500,
+      "maxDiscount": 500
+    },
+    {
+      "code": "FIRST50",
+      "discountFlat": 50,
+      "minOrder": 299
+    },
+    {
+      "code": "SUPERTOOL",
+      "discountPercent": 15,
+      "minOrder": 2000,
+      "maxDiscount": 1000
+    }
+  ]
+}

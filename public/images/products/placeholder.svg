@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <rect width="400" height="400" fill="#f8fafc" rx="16"/>
+  <rect x="1" y="1" width="398" height="398" fill="none" stroke="#e2e8f0" stroke-width="2" rx="15"/>
+  <g transform="translate(140, 120)">
+    <!-- Package / Box icon -->
+    <rect x="0" y="20" width="120" height="100" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="3"/>
+    <path d="M 0 45 L 120 45" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="4 4"/>
+    <path d="M 60 20 L 60 120" stroke="#cbd5e1" stroke-width="3"/>
+    <path d="M 45 45 L 45 65 Q 45 70 50 70 L 70 70 Q 75 70 75 65 L 75 45" fill="none" stroke="#ea580c" stroke-width="3"/>
+  </g>
+  <text x="200" y="270" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#64748b">
+    Product Image
+  </text>
+  <text x="200" y="292" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">
+    Nivora Market Catalog
+  </text>
+</svg>
